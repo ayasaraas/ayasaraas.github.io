@@ -1,0 +1,121 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #F5F5F5;
+	position: fixed;
+	width:200%;
+	z-index:7;
+}
+
+nav {
+  margin: 0;
+  padding: 0.5px 0;
+}
+
+nav li {
+  color: #696969;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200; /*ketebalan huruf*/
+  font-size: 15px;
+  display: inline-block;
+  width: 150px;
+}
+
+.opening {
+	max-width: 100%;
+  	margin: 0 auto;
+  	padding: 0 auto;
+  	text-align: center;
+}
+
+.background {
+	position: relative;
+	height: 900px;
+	padding: 0 25%;
+	background-image: url("https://i.ytimg.com/vi/hPCotoawhk0/maxresdefault.jpg");
+	background-size: cover;
+	text-align: center;
+
+}
+
+
+main {
+	text-align: center;
+	position: relative;
+	top: 10px; /*batas atas*/
+}
+
+main h1 {
+  color: #696969;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  margin-top: 0px;
+  padding-top: 120px; /*batas atas*/
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+
+main h2 {
+	color: #696969;
+  	font-family: 'Raleway', sans-serif;
+  	font-weight: 600;
+  	font-size: 30px;
+  	margin-top: 0px;
+  	padding-top: 30px; /*batas atas*/
+  	margin-bottom: 70px;
+}
+
+form {
+  text-align: center;
+  line-height: 50px;
+  height: 20%;
+  overflow: auto;
+  color: #696969;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 50;
+  font-size: 25px;
+  margin-top: 0px;
+  padding-top: 70px; /*batas atas*/
+  padding-bottom: 0px;
+}
+
+.kolom {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 1000px;
+}
+
+.kolom a {
+  background-color: white;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1.5 px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #333333; 
+  text-align: center;
+}
+
+
+footer {
+  background-color: #F5F5F5;
+  color: #696969;
+  padding: 7px 0;
+}
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+}
